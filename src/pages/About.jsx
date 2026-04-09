@@ -5,15 +5,15 @@ export default function About() {
         
         {/* Page Title */}
         <h2 className="text-4xl md:text-5xl font-bold mb-8">
-          About Liberty Consultancy
+          About Nottingham IT Solutions
         </h2>
 
         {/* Intro */}
         <p className="text-lg md:text-xl text-secondary dark:text-gray-300 max-w-3xl mb-12">
-          Nottingham IT Solutions is a trusted advisory firm helping organizations
-          navigate complex business challenges with confidence, integrity,
-          and expertise. We partner with leaders to unlock sustainable growth,
-          drive transformation, and deliver measurable outcomes.
+          Nottingham IT Solutions is a modern technology company delivering
+          scalable software, cloud infrastructure, and digital solutions to
+          businesses worldwide. We help organizations innovate faster, operate
+          efficiently, and stay competitive in a rapidly evolving digital landscape.
         </p>
 
         {/* Two Column Section */}
@@ -25,11 +25,10 @@ export default function About() {
               Who We Are
             </h3>
             <p className="text-secondary dark:text-gray-300 leading-relaxed">
-              Founded by experienced consultants, Liberty Consultancy combines
-              strategic insight, technical expertise, and pragmatic execution.
-              We work closely with executives, founders, and leadership teams
-              across industries to solve complex problems and enable long-term
-              success.
+              We are a team of engineers, designers, and technology specialists
+              passionate about building high-quality digital products. With years
+              of experience across industries, we bring deep technical expertise
+              and a problem-solving mindset to every project.
             </p>
           </div>
 
@@ -39,10 +38,10 @@ export default function About() {
               What We Do
             </h3>
             <p className="text-secondary dark:text-gray-300 leading-relaxed">
-              Our services span business strategy, digital transformation,
-              product and technology advisory, and operational excellence.
-              We focus on clarity, speed, and impact—helping organizations move
-              from insight to action.
+              We specialize in custom software development, cloud solutions,
+              web and mobile applications, and system integrations. From idea
+              to deployment, we deliver end-to-end solutions tailored to your
+              business goals.
             </p>
           </div>
         </div>
@@ -55,32 +54,31 @@ export default function About() {
 
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <h4 className="font-semibold mb-2">Integrity</h4>
+              <h4 className="font-semibold mb-2">Innovation</h4>
               <p className="text-sm text-secondary dark:text-gray-400">
-                We operate with honesty, transparency, and accountability in
-                every engagement.
+                We embrace new technologies and continuously evolve to deliver
+                cutting-edge solutions.
               </p>
             </div>
 
             <div>
-              <h4 className="font-semibold mb-2">Excellence</h4>
+              <h4 className="font-semibold mb-2">Quality</h4>
               <p className="text-sm text-secondary dark:text-gray-400">
-                We hold ourselves to the highest standards of quality and
-                professionalism.
+                We prioritize performance, security, and reliability in everything we build.
               </p>
             </div>
 
             <div>
-              <h4 className="font-semibold mb-2">Partnership</h4>
+              <h4 className="font-semibold mb-2">Collaboration</h4>
               <p className="text-sm text-secondary dark:text-gray-400">
-                We work as true partners with our clients, not just advisors.
+                We work closely with clients to ensure transparency and shared success.
               </p>
             </div>
 
             <div>
-              <h4 className="font-semibold mb-2">Impact</h4>
+              <h4 className="font-semibold mb-2">Results</h4>
               <p className="text-sm text-secondary dark:text-gray-400">
-                We focus on delivering tangible, measurable results.
+                We focus on delivering real business outcomes, not just technical solutions.
               </p>
             </div>
           </div>
@@ -89,13 +87,13 @@ export default function About() {
         {/* Closing Statement */}
         <div className="max-w-3xl">
           <h3 className="text-2xl font-semibold mb-4">
-            Why Liberty Consultancy
+            Why Choose Nottingham IT Solutions
           </h3>
           <p className="text-secondary dark:text-gray-300 leading-relaxed">
-            Clients choose Nottingham IT Solutions for our ability to balance
-            strategic thinking with hands-on execution. We bring clarity to
-            ambiguity, structure to complexity, and momentum to change—helping
-            organizations move forward with confidence.
+            Our strength lies in combining technical expertise with a deep
+            understanding of business needs. We build solutions that are not
+            only functional but scalable, secure, and future-ready—helping
+            your business grow with confidence.
           </p>
         </div>
 
