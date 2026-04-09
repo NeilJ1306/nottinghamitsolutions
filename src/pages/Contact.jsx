@@ -33,10 +33,10 @@ export default function Contact() {
               <p>
                 <strong>Email:</strong>{" "}
                 <a
-                  href="mailto:contact@libertyconsultancy.co.uk"
+                  href="mailto:contact@nottinghamitsolutions.com"
                   className="text-accent hover:underline"
                 >
-                  contact@libertyconsultancy.co.uk
+                  contact@nottinghamitsolutions.com
                 </a>
               </p>
 
