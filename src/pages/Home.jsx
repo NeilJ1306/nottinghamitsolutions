@@ -1,6 +1,13 @@
 import ServiceCard from "../components/ServiceCard"
 import CTA from "../components/CTA"
-import Counter from "../components/Counter"
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts"
 
 export default function Home() {
   return (
@@ -27,14 +34,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Metrics Section */}
+      {/* Graph Section */}
       <section className="bg-[#F5F7FA]">
         <div className="max-w-7xl mx-auto px-6 py-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <Counter value={10} label="Years Experience" />
-            <Counter value={120} label="Projects Delivered" />
-            <Counter value={99} label="Client Satisfaction (%)" />
-            <Counter value={15} label="Global Clients" />
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0A2540] mb-4">
+              Our Growth & Impact
+            </h2>
+            <p className="text-gray-600">
+              A snapshot of our consistent delivery and client growth over the years.
+            </p>
+          </div>
+
+          <div className="w-full h-[350px]">
+            <ResponsiveContainer>
+              <LineChart
+                data={[
+                  { year: "2020", projects: 20 },
+                  { year: "2021", projects: 45 },
+                  { year: "2022", projects: 70 },
+                  { year: "2023", projects: 95 },
+                  { year: "2024", projects: 120 },
+                ]}
+              >
+                <XAxis dataKey="year" stroke="#0A2540" />
+                <YAxis stroke="#0A2540" />
+                <Tooltip />
+                <Line
+                  type="monotone"
+                  dataKey="projects"
+                  stroke="#3A86FF"
+                  strokeWidth={3}
+                />
+              </LineChart>
+            </ResponsiveContainer>
           </div>
         </div>
       </section>
@@ -79,8 +112,8 @@ export default function Home() {
           </h2>
           <p className="max-w-3xl mx-auto text-lg opacity-90">
             We combine deep technical expertise with business understanding to
-            deliver impactful solutions. Our team is committed to quality,
-            innovation, and long-term partnerships.
+            deliver scalable, secure, and future-ready solutions. Our focus is
+            on long-term partnerships and measurable business impact.
           </p>
         </div>
       </section>
