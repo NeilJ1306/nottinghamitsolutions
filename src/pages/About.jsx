@@ -10,7 +10,7 @@ export default function About() {
 
         {/* Intro */}
         <p className="text-lg md:text-xl text-secondary dark:text-gray-300 max-w-3xl mb-12">
-          Liberty Consultancy is a trusted advisory firm helping organizations
+          Nottingham IT Solutions is a trusted advisory firm helping organizations
           navigate complex business challenges with confidence, integrity,
           and expertise. We partner with leaders to unlock sustainable growth,
           drive transformation, and deliver measurable outcomes.
@@ -92,7 +92,7 @@ export default function About() {
             Why Liberty Consultancy
           </h3>
           <p className="text-secondary dark:text-gray-300 leading-relaxed">
-            Clients choose Liberty Consultancy for our ability to balance
+            Clients choose Nottingham IT Solutions for our ability to balance
             strategic thinking with hands-on execution. We bring clarity to
             ambiguity, structure to complexity, and momentum to change—helping
             organizations move forward with confidence.
