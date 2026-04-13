@@ -9,7 +9,7 @@ export default function Contact() {
         </h2>
 
         <p className="text-lg md:text-xl text-secondary dark:text-gray-300 max-w-3xl mb-16">
-          Get in touch with Liberty Consultancy to discuss your business
+          Get in touch with Nottingham IT solutions Consultancy to discuss your business
           challenges, opportunities, or transformation goals. We’ll respond
           promptly and confidentially.
         </p>
